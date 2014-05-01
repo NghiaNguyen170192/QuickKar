@@ -1,0 +1,174 @@
+body
+{
+	margin:0px;
+	padding:0px;
+	background:#f5f5f5;
+	font-family:'PT Sans',sans-serif;
+}
+div
+{
+text-align:justify;
+text-justify:inter-word;
+}
+p{
+position: relative;
+left: 12px;
+padding-right: 12px;
+text-align:justify;
+text-justify:inter-word;
+}
+table{
+position: relative;
+left: 12px;
+padding-right: 12px;
+text-align:justify;
+text-justify:inter-word;
+}
+.topContainer{
+	margin:0px auto 0 auto;
+	width:1024px;
+	height: 200px;
+	left: 112px;
+	position: relative;
+}
+.mainContainer
+{
+	margin:60px auto 0 auto;
+	width:1024px;
+	height: auto;
+}
+
+.topNav
+{
+	font-family: 'PT Sans', sans-serif;
+	font-weight:bold;
+	font-size:12px;
+	width:960px;
+	margin:0 auto;
+	letter-spacing:-1px\9;
+}
+
+.tabs li
+{
+	display:inline;
+}
+
+.tabs li a
+{
+	cursor: pointer;
+	padding:26px 13px 11px 12px;
+	border:1px solid #cccccc;
+	font-family:'PT Sans',sans-serif;
+	font-size:13px;
+	color:#666666;
+	font-weight:400;
+	text-transform:uppercase;
+}
+
+.tabs .tab-current
+{
+	padding: 26px 13px 12px 12px;
+	border-bottom:0px;
+	background:#ffffff;
+}
+
+.tabsContent
+{
+	border:1px solid #cccccc;
+	-moz-box-shadow: 3px 3px 5px #cccccc;
+	-webkit-box-shadow: 3px 3px 5px #cccccc;
+	box-shadow: 3px 3px 5px #cccccc;
+	background:#ffffff;
+	padding:34px 12px 34px 12px;
+	color:#666666;
+	width: 1024px;
+	height: auto;
+}
+
+ul.tabs
+{
+	margin: 0 0 11px 20px;
+}
+div.wrapper{
+	width: 800px; 
+	height: 1200px;
+	position: relative;	
+	left: 12px;
+}
+div.wrapper1{
+	width: 1000px; 
+	height: 100px;
+	position: relative;	
+	left: 12px;
+}
+div.wrapper2{
+	width: 800px; 
+	height: auto;
+	position: relative;	
+	left: 22px;
+}
+div.theme1Admin{
+	width: 800px; 
+	height: 600px;
+	padding-bottom:10px;
+}
+div.theme2Admin{
+	width: 800px; 
+	height: 600px;
+}
+/*Firefox hack*/
+@-moz-document url-prefix()
+{
+	ul.tabs
+	{
+	   margin: 0 0 10px 20px;
+	}
+}
+
+/* root element for accordion. decorated with rounded borders and gradient background image */
+.accordion {
+    background:#333 url(/media/img/gradient/h300.png) 0 0;
+    width: 850px;
+    border:1px solid #333;
+    -background:#666;
+    margin: 0 auto;
+	height: auto;
+}
+
+/* accordion header */
+.accordion h2 {
+    background:#ccc url(/media/img/gradient/h30.png);
+    line-height: 14px;
+    margin:0;
+    padding:5px 15px;
+    font-size:14px;
+    font-weight:normal;
+    border:1px solid #fff;
+    border-bottom:1px solid #ddd;
+    cursor:pointer;
+}
+
+/* currently active header */
+.accordion h2.current {
+    cursor:default;
+    background-color:#fff;
+}
+
+/* accordion pane */
+.accordion .pane {
+    border:1px solid #fff;
+    border-width:0 2px;
+    display:none;
+    height:auto;
+    padding:0px;
+    color:#fff;
+    font-size:12px;
+}
+
+/* a title inside pane */
+.accordion .pane h3 {
+    font-weight:normal;
+    margin:0;
+    font-size:16px;
+    color:#999;
+}
